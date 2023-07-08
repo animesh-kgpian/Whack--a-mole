@@ -5,6 +5,39 @@ body {
     background-size: cover;
 }
 
+#startButton{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    background-color: lightblue;
+    width: 100px;
+   
+    transition: transform 0.3s ease;
+    
+}
+
+#startButton:hover{
+    transform: scale(1.2);
+}
+
+.conditions{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#timer{
+    
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-left: 140px;
+}
+
+#min_score{
+    
+    font-weight: bold;  
+    margin-right: 140px;
+}
 #board {
     width: 540px;
     height: 540px;
